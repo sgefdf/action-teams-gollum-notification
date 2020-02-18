@@ -2,4 +2,4 @@ name: 'Github Wiki webhook for MS Teams'
 description: 'Github action formatting a payload from a Github gollum (wiki) event and sending it to a specified Microsoft Teams channel via webhook.'
 runs:
   using: 'node12'
-  main: '../../src/index.js'
+  main: './src/index.js'
