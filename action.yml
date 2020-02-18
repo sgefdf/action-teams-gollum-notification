@@ -1,5 +1,5 @@
-name: 'Github Wiki webhook for MS Teams'
-description: 'Github action formatting a payload from a Github gollum (wiki) event and sending it to a specified Microsoft Teams channel via webhook.'
+name: 'Gollum notifications for Teams'
+description: 'Take a payload of gollum (Github wiki) event and send a formatted notification to a specified Microsoft Teams channel.'
 runs:
   using: 'node12'
   main: './src/index.js'
