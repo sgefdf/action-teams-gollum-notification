@@ -13,14 +13,15 @@ This action takes a payload of a gollum (Github wiki) event and sends a notifica
 on: [gollum]
 
 jobs:
-  wiki_update_notification:
+  wiki_teams_notification:
     runs-on: ubuntu-latest
-    name: Notification on wiki update for a Teams channel
+    name: Wiki Teams notification
     steps:
     - uses: actions/checkout@v2
       name: Checkout
     - uses: ./.github/actions
       name: Send notification
       env:
+        # A webhook URL to a Teams channel you want notifications to be sent to.
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
 ```
