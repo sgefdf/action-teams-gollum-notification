@@ -1,4 +1,4 @@
-name: 'Gollum notifications for Teams'
+name: 'Github Wiki notifications for Teams'
 author: 'Jakub Duchon'
 description: 'Take a payload of gollum (Github wiki) event and send a formatted notification to a specified Microsoft Teams channel.'
 runs:
